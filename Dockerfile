@@ -8,6 +8,7 @@ RUN apt-get update \
      python3 \
      build-essential libsdl1.2-dev texinfo gawk chrpath diffstat \
      cpio wget \
+     curl \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
